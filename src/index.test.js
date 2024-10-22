@@ -1,8 +1,8 @@
-import { createEmployee } from './index.js';
+import { createEngineer } from './index.js';
 
-describe('createEmployee', () => {
+describe('createEngineer', () => {
   it('should create an employee, given a name and a type code', () => {
-    const employee = createEmployee('John Doe', 'E');
+    const employee = createEngineer('John Doe', 'E');
     expect(employee.name).toBe('John Doe');
     expect(employee.type).toBe('Engineer');
   });

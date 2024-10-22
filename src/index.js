@@ -10,5 +10,5 @@ console.log(`Candidate: ${candidate.name}, ${candidate.type}`);
 console.log(`Lead engineer: ${leadEngineer.name}, ${leadEngineer.type}`);
 
 export function createEngineer(name, typeCode) {
-  return new Employee(name, typeCode);
+  return new Employee(name, 'E');
 }

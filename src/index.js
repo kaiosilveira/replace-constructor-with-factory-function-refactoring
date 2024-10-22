@@ -8,3 +8,7 @@ const leadEngineer = new Employee(leadEngineerDoc.leadEngineer, 'E');
 
 console.log(`Candidate: ${candidate.name}, ${candidate.type}`);
 console.log(`Lead engineer: ${leadEngineer.name}, ${leadEngineer.type}`);
+
+export function createEmployee(name, typeCode) {
+  return new Employee(name, typeCode);
+}
